@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://yihanli126.github.io/yihanli.jpg" class="floatpic" width="360" height="480">
+<img src="https://yihanli126.github.io/yihanli.JPG" class="floatpic" width="360" height="480">
 
 Here is **Yihan Li (YianLee, 李艺涵)**.
 
