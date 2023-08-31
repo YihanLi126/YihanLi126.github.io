@@ -1,22 +1,18 @@
-title: Hanlin Cai
+title: Yihan Li
 # tagline: Here is personal website of Hanlin Cai. Powered by Jekyll, based on the Minimal Mistakes theme.
 # description: Two roads diverged in woods, I took the one less traveled by.
 #Comment out url when working locally to resolve base urls correctly
-url: https://caihanlin.com
+url: https://yihanli126.github.io
 
 # Owner/author information
 owner:
-  name: Hanlin Cai
-  avatar: hanlin.jpg
+  name: Yihan Li
+  avatar: yihan_photo.jpg
  # bio:
-  email: hanlin.cai@ieee.org
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: lancecai2002
-  # facebook: caihanlin2002
-  github: GuangLun2000
-  linkedin: hanlincai
-  scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
-  # instagram: lancecai2002
+  email: yianleexjtu@gmail.com
+  github: YihanLi126
+  # linkedin: hanlincai
+  # scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
   # lastfm:
   # tumblr:
   # For Google Authorship https://plus.google.com/authorship
@@ -35,7 +31,7 @@ links:
   - title: About Me
     url: /
   - title: Resume
-    url: /file/CV-HanlinCAI.pdf
+    url: /file/Yihan_CV.pdf
   - title: Publications
     url: /publications/
   - title: Awards

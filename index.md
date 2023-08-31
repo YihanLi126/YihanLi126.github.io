@@ -4,11 +4,11 @@ layout: page
 
 # About Me
 
-<img src="https://caihanlin.com/caihanlin.jpg" class="floatpic" width="360" height="480">
+<img src="https://yihanli126.github.io/yihanli.jpg" class="floatpic" width="360" height="480">
 
-Here is **Hanlin Cai (Lance, [蔡汉霖](https://caihanlin.com/file/蔡汉霖简历.pdf))**.
+Here is **Yihan Li (YianLee, 李艺涵)**.
 
-I am a senior student majoring in **Automation** at Fuzhou University and **Robotics** at Maynooth University (Ireland, Combined Degrees). Currently, I am working as a research assistant in the **IACTIP Lab** (Provincial Key), advised by [Prof. Zhezhuang Xu](https://www.researchgate.net/profile/Zhezhuang-Xu). Here is [my CV](https://caihanlin.com/file/CV-HanlinCAI.pdf).
+I am an undergraduate student majoring in **Automation Engineering** at Xi'an Jiaotong University, Qian Xuesen Honor College. I'm now working with **Berkeley Hybrid Robotics Group** , advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). Here is [my CV](https://yihanli126.github.io/file/Yihan_CV.pdf).
 
 <br>
 
