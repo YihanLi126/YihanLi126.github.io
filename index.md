@@ -34,7 +34,7 @@ I'm enthusiastic about robotics, and especially interested in motion planning, o
 
 - **Aug 2022 - Dec 2022:** UC Berkeley, EECS
     - GPA: 3.78/4.0
-    - Main Courses: Signals and Systems(EE120), Data Structures(CS 61B), Introduction to Control of Unmanned Aerial Vehicles(ME 136), Introduction to Embedded and Cyber Physical Systems(EECS 149)
+    - Main Courses: Data Structures(CS 61B), Introduction to Control of Unmanned Aerial Vehicles(ME 136), Introduction to Embedded and Cyber Physical Systems(EECS 149), Signals and Systems(EE120).
 
 
 <br>
@@ -43,9 +43,10 @@ I'm enthusiastic about robotics, and especially interested in motion planning, o
 
 ## News and Updates
 
-- **Aug 2023：**Happy to be awarded the FEPG Scholarship.
-- **May 2023：**Happy to be awarded the XiamenAir Scholarship.
-- **May 2023：**Collected the Finalist Award in MCM 2023.
-- **Jan 2023：**One paper accepted to ICAROB 2023, see you in Japan!
-- **Jun 2022：**Visiting Research Intern at Cambridge University, advised by [Prof. Pietro Liò](https://www.cl.cam.ac.uk/~pl219/ ).
-- If you are interested in my works, please feel free to book an [[online talk with me](https://calendly.com/lancecai/meet-with-lance)].
+- **Aug 2023：** Works about Iterative MPPI in progress.
+- **Jul 2023：** A paper I enrolled in was accepted by CDC 2023.
+- **Jun 2023：** Start the final stage revision work of our paper about i2LQR racing, release soon.
+- **Sep 2022：** Join Berkeley Hybrid Robotics as an intern student.
+- **Nov 2022：** The third prize in China Robot Competition 2022(Held online for the pandemic), intelligent irrigation car.
+- **Aug 2022：** Visiting UC Berkeley through Berkeley Global Access program.
+
