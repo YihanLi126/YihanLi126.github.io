@@ -8,30 +8,34 @@ layout: page
 
 Here is **Yihan Li (YianLee, 李艺涵)**.
 
-I am an undergraduate student majoring in **Automation Engineering** at Xi'an Jiaotong University, Qian Xuesen Honor College. I'm now working with **Berkeley Hybrid Robotics Group** , advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). Here is [my CV](https://yihanli126.github.io/file/Yihan_CV.pdf).
+I am a senior student majoring in **Automation Engineering** at Xi'an Jiaotong University, Qian Xuesen Honor College. I'm also a visiting student in UC Berkeley during 2023 Fall. I'm now working with **Berkeley Hybrid Robotics Group** , directed by [Dr. Jun Zeng](https://junzengx14.github.io/), advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). Here is [my CV](https://yihanli126.github.io/file/Yihan_CV.pdf).
 
 <br>
 
-## Academic Background
+## Research Interests
 
-**<font color='red'>[Highlight]</font> I am looking for PhD to start in 2025 Fall. Contact me if you have any leads!**
+- Robotics 
+- Motion Planning 
+- Optimization
+- Control Theory
 
-- **Sep 2020 - June 2024:** Fuzhou University (BEng)
-- **Sep 2020 - May 2024:** Maynooth University (BSc)
-- **June 2022 - Nov 2022:** Cambridge University (Visiting)
-- Expect to apply for a one-year MSc in the UK and will graduate in 2025. Looking for PhD position after MSc!
+I'm enthusiastic about robotics, and especially interested in motion planning, optimization and control theory. My current research lies on model-based trajectory generation and control in automatic drive, and I also have experience in real-world development and debugging of intelligent car on the test ground. I'm willing to get exposed to various topics in the field of robotics motion planning, including model-based and RL-based methods and their combination, and other types of robot like legged and aerial robots.
+
+**<font color='red'>[Highlight]</font> I am looking for PhD to start in 2024 Fall. Contact me if you are interested in my work!**
 
 <br>
 
 ---
 
-## Research Interests
+## Academic Background
+- **Sep 2020 - June 2024:** Xi'an Jiaotong University,Qian Xuesen Honor College
+    - Average Score: 86.6/100
+    - Main Courses: Engineering Mathematical Analysis, Linear Algebra and Geometry, Operations Research, Probability Theory and Mathematical Statistics, Complex Function and Integral Transform, Numerical Analysis, Circuit, Analog and Electronic Technology Fundamentals, Systems Engineering, etc. 
 
-- Industrial IoT System
-- Bluetooth Low Energy
-- Applied Machine Learning
+- **Aug 2022 - Dec 2022:** UC Berkeley, EECS
+    - GPA: 3.78/4.0
+    - Main Courses: Signals and Systems(EE120), Data Structures(CS 61B), Introduction to Control of Unmanned Aerial Vehicles(ME 136), Introduction to Embedded and Cyber Physical Systems(EECS 149)
 
-My current research focuses on practical problems that artificial intelligence faces in real life. My interests are on the **Machine Learning** and its applications in **Industrial IoT**. In a word, advanced technologies like ML and IoT positively influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
 
 <br>
 
