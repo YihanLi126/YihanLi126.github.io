@@ -19,7 +19,7 @@ I was responsible for part of the hardware, part of the motion control and obsta
 <br>
 
 Here is the poster of our project:
-<img src="https://yihanli126.github.io/images/EE249_Project_Poster.jpg" class="floatpic">
+![Poster](https://yihanli126.github.io/images/EE249_Project_Poster.jpg)
 
 <br>
 
