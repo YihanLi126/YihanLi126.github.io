@@ -19,8 +19,10 @@ I was responsible for part of the hardware, part of the motion control and obsta
 <br>
 
 Here is the poster of our project:
-![Poster](https://yihanli126.github.io/images/EE249_Project_Poster.jpg)
+<center>
+<img src="/images/EE249_Project_Poster.jpg">
+</center>
 
 <br>
 
-And the report of the project can be found [here](https://yihanli126.github.io/file/EE249_Final_Report.pdf)
+And the full report of the project can be found [here](https://yihanli126.github.io/file/EE249_Final_Report.pdf)
