@@ -10,7 +10,7 @@ title: Projects
 <img src="/projects/project_images/irrigation_car_test.jpg">
 </center>
 
-[The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)
+Project Link: [The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)
 
 ---
 
@@ -20,7 +20,7 @@ title: Projects
 <img src="/projects/project_images/hexapod_test.jpg">
 </center>
 
-[Hexapod Robot Project: Perception, Avoidance and Tracking](https://yihanli126.github.io/projects/hexapod_robot)
+Project Link: [Hexapod Robot Project: Perception, Avoidance and Tracking](https://yihanli126.github.io/projects/hexapod_robot)
 
 
 ---
@@ -31,7 +31,7 @@ title: Projects
 <img src="/projects/project_images/General world.png">
 </center>
 
-[Random World Exploration](https://yihanli126.github.io/projects/61B_project)
+Project Link: [Random World Exploration](https://yihanli126.github.io/projects/61B_project)
 
 ---
 
@@ -42,12 +42,12 @@ title: Projects
 </center>
 
 
-[Infrared Sensor Tracking](https://yihanli126.github.io/projects/IR_tracking)
+Project Link: [Infrared Sensor Tracking](https://yihanli126.github.io/projects/IR_tracking)
 
 ---
 
 ## XJTU Machine Learning Class Project
-[project link](https://yihanli126.github.io/projects/machine_learning_class_proj)
+Project Link: [Basic Machine Learning Practice](https://yihanli126.github.io/projects/machine_learning_class_proj)
 
 
 
