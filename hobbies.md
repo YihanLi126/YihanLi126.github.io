@@ -13,7 +13,7 @@ title: Hobbies
 <img src="/images/piano_2.JPG">
 <img src="/images/piano_3.JPG">
 </div> -->
-:-------------------------:|:-------------------------:
+
 ![](https://yihanli126.github.io/images/piano_1.JPG)  |  ![](https://yihanli126.github.io/images/piano_2.JPG)
 ![](https://yihanli126.github.io/images/piano_3.JPG)  |  ![](https://yihanli126.github.io/images/piano_4.JPG)
 
