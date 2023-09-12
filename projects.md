@@ -7,7 +7,7 @@ title: Projects
 ## Intelligent Agricultural Irrigating Car 
 
 <div style="float: left; margin-right 1em;">
-    <img src="/projects/project_images/irrigation_car_test.jpg" alt="" width="120" height="120">
+    <img src="/projects/project_images/irrigation_car_test.jpg" alt="" width="240" height="240">
 </div>
 
 [The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)
