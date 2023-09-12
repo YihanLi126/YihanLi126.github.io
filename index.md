@@ -19,7 +19,7 @@ I am a senior student majoring in **Automation Engineering** at Xi'an Jiaotong U
 - Optimization
 - Control Theory
 
-I'm enthusiastic about robotics, and especially interested in motion planning, optimization and control theory. My current research lies on model-based trajectory generation and control in automatic drive, and I also have experience in real-world development and debugging of intelligent car on the test ground. I'm willing to get exposed to various topics in the field of robotics motion planning, including model-based and RL-based methods and their combination, and other types of robot like legged and aerial robots.
+I'm enthusiastic about robotics, and especially interested in **motion planning, optimization and control theory**. My current research lies on model-based trajectory generation and control in automatic drive, including topics like learning based MPC(LMPC), iLQR in iterative manner(i2LQR) and iterative MPPI. I also have experience in real-world development and debugging of intelligent car on real test ground. **I’m willing to get exposed to various topics in the field of robotics motion planning**, including various methodologies like model-based, RL-based methods or their combination and their application on various types of robots like legged and aerial robots.
 
 **<font color='red'>[Highlight]</font> I am looking for PhD to start in 2024 Fall. Contact me if you are interested in my work!**
 
