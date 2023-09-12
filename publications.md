@@ -32,4 +32,5 @@ Yifan Zeng *, **Yihan Li** *, Suiyi He, Koushil Sreenath and Jun Zeng<br>
 
 ## Current Work for Potential Publication 
 
--  [Iterative MPPI as a Scenario Generator and Combined Planner and Controller](https://yihanli126.github.io/publications/MPPI/mppi)
+-  [Iterative MPPI as a Scenario Generator and Combined Planner and Controller](https://yihanli126.github.io/publications/MPPI/mppi)<br>
+Here is my current independent work about MPPI in Iterative Manner. Click the link above to know more about my work!
