@@ -8,7 +8,7 @@ title: Publications
 
 ## Conference Paper
 
-- [i2LQR: Iterative LQR for Iterative Tasks in Dynamic Environments](https://arxiv.org/abs/2302.14246)<br>
+- [i2LQR: Iterative LQR for Iterative Tasks in Dynamic Environments](https://yihanli126.github.io/publications/CDC2023_material/CDC2023)<br>
 Yifan Zeng *, Suiyi He *, Han Hoang Nguyen, **Yihan Li**, Zhongyu Li, Koushil Sreenath, Jun Zeng<br>
 *Accepted by 2023 62nd IEEE Conference on Decision and Control (CDC).*<br>
 
