@@ -24,15 +24,15 @@ A video of me playing Beethoven's *Sonata No. 8 in C Minor, Op. 13, "Pathétique
 ## Singing
 
 <center>
-<img src="/images/sing_1.JPG">
+<img src="/images/sing_1.JPG" style="width:60%; height:auto; max-width:100%">
 </center>
 
 <center>
-<img src="/images/sing_2.JPG">
+<img src="/images/sing_2.JPG" style="width:60%; height:auto; max-width:100%">
 </center>
 
 <center>
-<img src="/images/sing_3.JPG">
+<img src="/images/sing_3.JPG" style="width:60%; height:auto; max-width:100%">
 </center>
 
 <br>
@@ -41,11 +41,23 @@ Here are some photos from our class concert. I started learning to sing when I w
 
 ## Composing
 
-<div class="third">
+<center>
+<img src="/images/compose_1.jpg" style="width:100%; height:auto; max-width:100%">
+</center>
+
+<center>
+<img src="/images/compose_2.jpg" style="width:100%; height:auto; max-width:100%">
+</center>
+
+<center>
+<img src="/images/compose_3.jpg" style="width:33%; height:auto; max-width:100%">
+</center>
+
+<!-- <div class="third">
 <img src="/images/compose_1.jpg">
 <img src="/images/compose_2.jpg">
 <img src="/images/compose_3.jpg">
-</div>
+</div> -->
 
 <br>
 
