@@ -50,7 +50,7 @@ Here are some photos from our class concert. I started learning to sing when I w
 </center>
 
 <center>
-<img src="/images/compose_3.jpg" style="width:33%; height:auto; max-width:100%">
+<img src="/images/compose_3.jpg" style="width:67%; height:auto; max-width:100%">
 </center>
 
 <!-- <div class="third">
