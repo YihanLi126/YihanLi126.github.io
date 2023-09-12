@@ -20,16 +20,16 @@ Yifan Zeng *, Suiyi He *, Han Hoang Nguyen, **Yihan Li**, Zhongyu Li, Koushil Sr
 
 ## Working Manuscript
 
--  Towards Better Online Maneuver for Autonomous Racing with Multiple Vehicles Through Offline Iterative Learning<br>
+- [Towards Better Online Maneuver for Autonomous Racing with Multiple Vehicles Through Offline Iterative Learning](https://yihanli126.github.io/publications/IROS2023_resubmission/i2LQR_racing)<br>
 Yifan Zeng *, **Yihan Li** *, Suiyi He, Koushil Sreenath and Jun Zeng<br>
 *In process of final revision and submission.*<br>
 
-<div class="third">
-<img src="/publications/IROS2023_resubmission/lmpc_m_shape_testcase.gif">
-<img src="/publications/IROS2023_resubmission/ilqr_m_shape_testcase.gif">
-</div>
+<center>
+<img src="/publications/IROS2023_resubmission/i2lqr_racing_demo.jpg">
+</center>
+
 <br>
 
 ## Current Work for Potential Publication 
 
--  Iterative MPPI as a Scenario Generator and Combined Planner and Controller
+-  [Iterative MPPI as a Scenario Generator and Combined Planner and Controller](https://yihanli126.github.io/publications/MPPI/mppi)
