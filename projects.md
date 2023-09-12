@@ -8,11 +8,12 @@ title: Projects
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
-    <img src="/projects/project_images/irrigation_car_test.jpg" alt="" width="360" height="360">
+    <img src="/projects/project_images/irrigation_car_test.jpg" alt="" width="120" height="120">
   </div>
   <div>
-    <h2>Intelligent Agricultural Irrigating Car</h2>
-    <p>[The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)</p>
+    <h3>Intelligent Agricultural Irrigating Car</h3>
+    <br>
+    [The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)
   </div>
 </div>
 
