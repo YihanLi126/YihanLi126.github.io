@@ -4,14 +4,14 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-<!-- ## Intelligent Agricultural Irrigating Car  -->
+## Intelligent Agricultural Irrigating Car 
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
     <img src="/projects/project_images/irrigation_car_test.jpg" alt="">
-  </div>
+  </div>s
   <div>
-    <h2>Some title text</h2>
+    <h2>Intelligent Agricultural Irrigating Car</h2>
     <p>[The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)</p>
   </div>
 </div>
