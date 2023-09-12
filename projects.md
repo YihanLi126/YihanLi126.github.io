@@ -6,40 +6,43 @@ title: Projects
 
 ## Intelligent Agricultural Irrigating Car 
 
+<center>
+<img src="/projects/project_images/irrigation_car_test.jpg">
+</center>
 
-![](/projects/project_images/irrigation_car_test.jpg){: style="float:left; width:180; height:auto" }
 [The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)
-
-<!-- <div style="clear: both;">
-  <div style="float: left; margin-right 1em;">
-    <img src="/projects/project_images/irrigation_car_test.jpg" alt="" width="120" height="120">
-  </div>
-  <div>
-    <h3>Intelligent Agricultural Irrigating Car</h3>
-    <p>[The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)</p>
-  </div>
-</div> -->
-
-
-<!-- ![](/projects/project_images/irrigation_car_test.jpg){: style="float: left" width="240" height="240"}
-[The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car) -->
-
 
 ---
 
 ## EECS149 Course Project: Hexapod Robot
-[project page link](https://yihanli126.github.io/projects/hexapod_robot)
+
+<center>
+<img src="/projects/project_images/hexapod_test.jpg">
+</center>
+
+[Hexapod Robot Project: Perception, Avoidance and Tracking](https://yihanli126.github.io/projects/hexapod_robot)
 
 
 ---
 
 ## CS61B Final Project
-[project page link](https://yihanli126.github.io/projects/61B_project)
+
+<center>
+<img src="/projects/project_images/General world.png">
+</center>
+
+[Random World Exploration](https://yihanli126.github.io/projects/61B_project)
 
 ---
 
 ## XJTU Robot Development Practive Course Project
-[project link](https://yihanli126.github.io/projects/IR_tracking)
+
+<center>
+<img src="/projects/project_images/IR_tracking.jpg">
+</center>
+
+
+[Infrared Sensor Tracking](https://yihanli126.github.io/projects/IR_tracking)
 
 ---
 
