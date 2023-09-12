@@ -4,7 +4,7 @@ permalink: /projects/index.html
 title: Projects
 ---
 
-## Intelligent Agricultural Irrigating Car 
+<!-- ## Intelligent Agricultural Irrigating Car  -->
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
