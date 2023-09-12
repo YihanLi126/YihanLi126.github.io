@@ -20,7 +20,7 @@ I was responsible for part of the hardware, part of the motion control and obsta
 
 Here is the poster of our project:
 <center>
-<img src="/images/EE249_Project_Poster.jpg">
+<img src="/projects/project_images/EE249_Project_Poster.jpg">
 </center>
 
 <br>

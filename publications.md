@@ -16,7 +16,7 @@ Yifan Zeng *, Suiyi He *, Han Hoang Nguyen, **Yihan Li**, Zhongyu Li, Koushil Sr
 <img src="/publications/CDC2023_material/iterative_point_selection.png">
 </center>
 
-
+---
 
 ## Working Manuscript
 
@@ -28,7 +28,7 @@ Yifan Zeng *, **Yihan Li** *, Suiyi He, Koushil Sreenath and Jun Zeng<br>
 <img src="/publications/IROS2023_resubmission/i2lqr_racing_demo.jpg">
 </center>
 
-<br>
+---
 
 ## Current Work for Potential Publication 
 

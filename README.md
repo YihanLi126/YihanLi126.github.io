@@ -1,4 +1,4 @@
 # Yihan's Personal Website
 
-Here is **Yihan Li (李艺涵)**. Here is my personal website. 
+Hi my friend! Here is **Yihan Li (李艺涵)**, and welcome to my world!. 
 

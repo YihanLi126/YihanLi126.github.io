@@ -6,6 +6,8 @@ title: i2LQR Racing
 
 ## Towards Better Online Maneuver for Autonomous Racing with Multiple Vehicles Through Offline Iterative Learning
 
+<br>
+
 LMPC Racing             |  i2LQR Racing
 :-------------------------:|:-------------------------:
 ![](https://yihanli126.github.io/publications/IROS2023_resubmission/lmpc_m_shape_testcase.gif)  |  ![](https://yihanli126.github.io/publications/IROS2023_resubmission/ilqr_m_shape_testcase.gif)
