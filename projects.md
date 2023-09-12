@@ -6,12 +6,17 @@ title: Projects
 
 ## Intelligent Agricultural Irrigating Car 
 <!-- [project page link](https://yihanli126.github.io/projects/agricultural_irrigating_car) -->
-| ![](/projects/project_images/irrigation_car_test.jpg) | [The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car) |
+<!-- | ![](/projects/project_images/irrigation_car_test.jpg) | [The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car) | -->
+
+![](/projects/project_images/irrigation_car_test.jpg){: style="float: left"}
+[The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)
+
 
 ---
 
 ## EECS149 Course Project: Hexapod Robot
 [project page link](https://yihanli126.github.io/projects/hexapod_robot)
+
 
 ---
 
