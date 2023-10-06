@@ -47,6 +47,11 @@ Project Link: [Infrared Sensor Tracking](https://yihanli126.github.io/projects/I
 ---
 
 ## XJTU Machine Learning Class Project
+
+<center>
+<img src="/projects/project_images/XJTU_lib.JPG">
+</center>
+
 Project Link: [Basic Machine Learning Practice](https://yihanli126.github.io/projects/machine_learning_class_proj)
 
 
