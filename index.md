@@ -8,7 +8,7 @@ layout: page
 
 Here is **Yihan Li (YianLee, 李艺涵)**.
 
-I am a senior student majoring in **Automation Engineering** at Xi'an Jiaotong University, Qian Xuesen Honor College. I'm also a visiting student in UC Berkeley during 2023 Fall. I'm now working with **Berkeley Hybrid Robotics Group** , directed by [Dr. Jun Zeng](https://junzengx14.github.io/), advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). Here is [my CV](https://yihanli126.github.io/file/Yihan_CV.pdf).
+I am a senior student majoring in **Automation Engineering** at Xi'an Jiaotong University, Qian Xuesen Honor College. I'm also a visiting student in UC Berkeley during 2023 Fall. I'm now working with **Berkeley Hybrid Robotics Group** , advised by [Prof. Koushil Sreenath](https://hybrid-robotics.berkeley.edu/koushil/). Here is [my CV](https://yihanli126.github.io/file/Yihan_CV.pdf).
 
 <br>
 
