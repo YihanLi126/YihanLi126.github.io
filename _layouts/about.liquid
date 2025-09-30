@@ -64,6 +64,20 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Projects (inline on about page, no navbar link) -->
+    {% if page.projects and page.projects.enabled %}
+      <h2>projects</h2>
+      {% assign projects_sorted = site.projects | sort: 'importance' %}
+      {% if page.projects.limit %}
+        {% assign projects_sorted = projects_sorted | slice: 0, page.projects.limit %}
+      {% endif %}
+      <div class="row row-cols-1 row-cols-md-3">
+        {% for project in projects_sorted %}
+          {% include projects.liquid %}
+        {% endfor %}
+      </div>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
