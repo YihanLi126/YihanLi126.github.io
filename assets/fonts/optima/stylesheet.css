@@ -1,0 +1,312 @@
+@font-face {
+    font-family: 'Optima Pro';
+    src: url('OptimaLTPro-Medium.eot');
+    src: local('Optima Pro Medium'), local('OptimaLTPro-Medium'),
+        url('OptimaLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-Medium.woff2') format('woff2'),
+        url('OptimaLTPro-Medium.woff') format('woff'),
+        url('OptimaLTPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro';
+    src: url('OptimaLTPro-BoldItalic.eot');
+    src: local('Optima Pro Bold Italic'), local('OptimaLTPro-BoldItalic'),
+        url('OptimaLTPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-BoldItalic.woff2') format('woff2'),
+        url('OptimaLTPro-BoldItalic.woff') format('woff'),
+        url('OptimaLTPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro';
+    src: url('OptimaLTPro-Bold.eot');
+    src: local('Optima Pro Bold'), local('OptimaLTPro-Bold'),
+        url('OptimaLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-Bold.woff2') format('woff2'),
+        url('OptimaLTPro-Bold.woff') format('woff'),
+        url('OptimaLTPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std';
+    src: url('OptimaLTStd-BoldItalic.eot');
+    src: local('Optima Std Bold Italic'), local('OptimaLTStd-BoldItalic'),
+        url('OptimaLTStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-BoldItalic.woff2') format('woff2'),
+        url('OptimaLTStd-BoldItalic.woff') format('woff'),
+        url('OptimaLTStd-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std Demi';
+    src: url('OptimaLTStd-DemiBoldItalic.eot');
+    src: local('Optima Std Demi Bold Italic'), local('OptimaLTStd-DemiBoldItalic'),
+        url('OptimaLTStd-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-DemiBoldItalic.woff2') format('woff2'),
+        url('OptimaLTStd-DemiBoldItalic.woff') format('woff'),
+        url('OptimaLTStd-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro';
+    src: url('OptimaLTPro-BlackItalic.eot');
+    src: local('Optima Pro Black Italic'), local('OptimaLTPro-BlackItalic'),
+        url('OptimaLTPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-BlackItalic.woff2') format('woff2'),
+        url('OptimaLTPro-BlackItalic.woff') format('woff'),
+        url('OptimaLTPro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro';
+    src: url('OptimaLTPro-Italic.eot');
+    src: local('Optima Pro Italic'), local('OptimaLTPro-Italic'),
+        url('OptimaLTPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-Italic.woff2') format('woff2'),
+        url('OptimaLTPro-Italic.woff') format('woff'),
+        url('OptimaLTPro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro Extra';
+    src: url('OptimaLTPro-ExtraBlackIta.eot');
+    src: local('Optima Pro Extra Black Italic'), local('OptimaLTPro-ExtraBlackIta'),
+        url('OptimaLTPro-ExtraBlackIta.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-ExtraBlackIta.woff2') format('woff2'),
+        url('OptimaLTPro-ExtraBlackIta.woff') format('woff'),
+        url('OptimaLTPro-ExtraBlackIta.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro Extra';
+    src: url('OptimaLTPro-ExtraBlack.eot');
+    src: local('Optima Pro Extra Black'), local('OptimaLTPro-ExtraBlack'),
+        url('OptimaLTPro-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-ExtraBlack.woff2') format('woff2'),
+        url('OptimaLTPro-ExtraBlack.woff') format('woff'),
+        url('OptimaLTPro-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std';
+    src: url('OptimaLTStd-BlackItalic.eot');
+    src: local('Optima Std Black Italic'), local('OptimaLTStd-BlackItalic'),
+        url('OptimaLTStd-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-BlackItalic.woff2') format('woff2'),
+        url('OptimaLTStd-BlackItalic.woff') format('woff'),
+        url('OptimaLTStd-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro';
+    src: url('OptimaLTPro-MediumItalic.eot');
+    src: local('Optima Pro Medium Italic'), local('OptimaLTPro-MediumItalic'),
+        url('OptimaLTPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-MediumItalic.woff2') format('woff2'),
+        url('OptimaLTPro-MediumItalic.woff') format('woff'),
+        url('OptimaLTPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro Roman';
+    src: url('OptimaLTPro-Roman.eot');
+    src: local('Optima Pro Roman'), local('OptimaLTPro-Roman'),
+        url('OptimaLTPro-Roman.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-Roman.woff2') format('woff2'),
+        url('OptimaLTPro-Roman.woff') format('woff'),
+        url('OptimaLTPro-Roman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std';
+    src: url('OptimaLTStd-Bold.eot');
+    src: local('Optima Std Bold'), local('OptimaLTStd-Bold'),
+        url('OptimaLTStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-Bold.woff2') format('woff2'),
+        url('OptimaLTStd-Bold.woff') format('woff'),
+        url('OptimaLTStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro Demi';
+    src: url('OptimaLTPro-DemiBoldItalic.eot');
+    src: local('Optima Pro Demi Bold Italic'), local('OptimaLTPro-DemiBoldItalic'),
+        url('OptimaLTPro-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-DemiBoldItalic.woff2') format('woff2'),
+        url('OptimaLTPro-DemiBoldItalic.woff') format('woff'),
+        url('OptimaLTPro-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std Extra';
+    src: url('OptimaLTStd-XBlackItalic.eot');
+    src: local('Optima Std Extra Black Italic'), local('OptimaLTStd-XBlackItalic'),
+        url('OptimaLTStd-XBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-XBlackItalic.woff2') format('woff2'),
+        url('OptimaLTStd-XBlackItalic.woff') format('woff'),
+        url('OptimaLTStd-XBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro Demi';
+    src: url('OptimaLTPro-DemiBold.eot');
+    src: local('Optima Pro Demi Bold'), local('OptimaLTPro-DemiBold'),
+        url('OptimaLTPro-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-DemiBold.woff2') format('woff2'),
+        url('OptimaLTPro-DemiBold.woff') format('woff'),
+        url('OptimaLTPro-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std';
+    src: url('OptimaLTStd-Black.eot');
+    src: local('Optima Std Black'), local('OptimaLTStd-Black'),
+        url('OptimaLTStd-Black.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-Black.woff2') format('woff2'),
+        url('OptimaLTStd-Black.woff') format('woff'),
+        url('OptimaLTStd-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std';
+    src: url('OptimaLTStd-Medium.eot');
+    src: local('Optima Std Medium'), local('OptimaLTStd-Medium'),
+        url('OptimaLTStd-Medium.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-Medium.woff2') format('woff2'),
+        url('OptimaLTStd-Medium.woff') format('woff'),
+        url('OptimaLTStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std Demi';
+    src: url('OptimaLTStd-DemiBold.eot');
+    src: local('Optima Std Demi Bold'), local('OptimaLTStd-DemiBold'),
+        url('OptimaLTStd-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-DemiBold.woff2') format('woff2'),
+        url('OptimaLTStd-DemiBold.woff') format('woff'),
+        url('OptimaLTStd-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std';
+    src: url('OptimaLTStd-MediumItalic.eot');
+    src: local('Optima Std Medium Italic'), local('OptimaLTStd-MediumItalic'),
+        url('OptimaLTStd-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-MediumItalic.woff2') format('woff2'),
+        url('OptimaLTStd-MediumItalic.woff') format('woff'),
+        url('OptimaLTStd-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Pro';
+    src: url('OptimaLTPro-Black.eot');
+    src: local('Optima Pro Black'), local('OptimaLTPro-Black'),
+        url('OptimaLTPro-Black.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTPro-Black.woff2') format('woff2'),
+        url('OptimaLTPro-Black.woff') format('woff'),
+        url('OptimaLTPro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std';
+    src: url('OptimaLTStd-Italic.eot');
+    src: local('Optima Std Italic'), local('OptimaLTStd-Italic'),
+        url('OptimaLTStd-Italic.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-Italic.woff2') format('woff2'),
+        url('OptimaLTStd-Italic.woff') format('woff'),
+        url('OptimaLTStd-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std Roman';
+    src: url('OptimaLTStd.eot');
+    src: local('Optima Std Roman'), local('OptimaLTStd'),
+        url('OptimaLTStd.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd.woff2') format('woff2'),
+        url('OptimaLTStd.woff') format('woff'),
+        url('OptimaLTStd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Optima Std Extra';
+    src: url('OptimaLTStd-ExtraBlack.eot');
+    src: local('Optima Std Extra Black'), local('OptimaLTStd-ExtraBlack'),
+        url('OptimaLTStd-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('OptimaLTStd-ExtraBlack.woff2') format('woff2'),
+        url('OptimaLTStd-ExtraBlack.woff') format('woff'),
+        url('OptimaLTStd-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
