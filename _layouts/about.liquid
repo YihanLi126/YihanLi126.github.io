@@ -65,11 +65,12 @@ layout: default
     {% endif %}
 
     <!-- Projects (inline on about page, now with link to full projects page) -->
-    {% if page.projects and page.projects.enabled %}
+    {% if page.projects %}
       <h2>
-        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">projects</a>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
       </h2>
-      {% assign projects_sorted = site.projects | sort: 'importance' %}
+      {% include projects.liquid %}
+      {% comment %} {% assign projects_sorted = site.projects | sort: 'importance' %}
       {% if page.projects.limit %}
         {% assign projects_sorted = projects_sorted | slice: 0, page.projects.limit %}
       {% endif %}
@@ -77,7 +78,7 @@ layout: default
         {% for project in projects_sorted %}
           {% include projects.liquid %}
         {% endfor %}
-      </div>
+      </div> {% endcomment %}
     {% endif %}
 
     <!-- Social -->
