@@ -48,13 +48,13 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    {% comment %} <!-- Latest posts -->
+     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
-    {% endif %} {% endcomment %}
+    {% endif %}
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
@@ -65,12 +65,12 @@ layout: default
     {% endif %}
 
     <!-- Projects (inline on about page, now with link to full projects page) -->
-    {% if page.projects %}
+    {% if page.projects and page.projects.enabled%}
       <h2>
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">Projects</a>
       </h2>
-      {% include projects.liquid %}
-      {% comment %} {% assign projects_sorted = site.projects | sort: 'importance' %}
+      {% comment %} {% include projects.liquid %} {% endcomment %}
+      {% assign projects_sorted = site.projects | sort: 'importance' %}
       {% if page.projects.limit %}
         {% assign projects_sorted = projects_sorted | slice: 0, page.projects.limit %}
       {% endif %}
@@ -78,7 +78,7 @@ layout: default
         {% for project in projects_sorted %}
           {% include projects.liquid %}
         {% endfor %}
-      </div> {% endcomment %}
+      </div> 
     {% endif %}
 
     <!-- Social -->
