@@ -1,6 +1,6 @@
 ---
 ---
-<div class="row">
+<div class="row align-items-center">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
@@ -26,22 +26,34 @@
         {% endif %}
       {% endif %}
       {% if entry.preview %}
-        {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
-        {% else %}
-          {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
-          {%
-            include figure.liquid
-            loading="eager"
-            path=entry_path
-            sizes = "200px"
+        {%- comment -%} 取出后缀，统一转成小写，方便判断 {%- endcomment -%}
+        {% assign ext = entry.preview | slice: -4, 4 | downcase %}
+
+        {%- comment -%} 如果是 MP4 视频 {%- endcomment -%}
+        {% if ext == '.mp4' %}
+          {% assign video_src = entry.preview | prepend: '/assets/publication_preview/' %}
+          <video
             class="preview z-depth-1 rounded"
-            zoomable=true
-            avoid_scaling=true
-            alt=entry.preview
-          %}
+            autoplay muted loop playsinline
+            style="width:100%; height:auto;"
+          >
+            <source src="{{ video_src }}" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+        {%- comment -%} 否则当成图片处理 {%- endcomment -%}
+        {% else %}
+          {% assign image_src = entry.preview | prepend: '/assets/publication_preview/' %}
+          <img
+            class="preview z-depth-1 rounded"
+            src="{{ image_src }}"
+            alt="{{ entry.preview }}"
+            loading="eager"
+            style="width:100%; height:auto; display:block;"
+          />
         {% endif %}
       {% endif %}
+
     </div>
   {% endif %}
 
@@ -74,15 +86,13 @@
             {% if coauthor.firstname contains author.first %}
               {%- assign coauthor_url = coauthor.url -%}
               {% break %}
-            {%- endif -%}
+            {% endif %}
           {% endfor %}
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {% if forloop.first == false -%}
-            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
-          {%- endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
+          {% if forloop.first == false %},&nbsp;{% endif %}
+          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
           <em>
@@ -170,7 +180,7 @@
       {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
     {% if entry.additional_info %}
-      {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+      {% capture entrytype %}{{ entrytype | strip }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endcapture %}
     {% endif %}
     {% capture hook_exists %}{% file_exists _includes/hook/bib.liquid %}{% endcapture %}
     {% if hook_exists == 'true' %}
@@ -199,7 +209,8 @@
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
       {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+        {% comment %} <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a> {% endcomment %} 
+        <i><a href="http://arxiv.org/abs/{{ entry.arxiv }}" style="font-weight: 500;">arXiv</a></i> /
       {% endif %}
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
@@ -213,9 +224,9 @@
       {% endif %}
       {% if entry.pdf %}
         {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <i><a href="{{ entry.pdf }}" style="font-weight: 500;">pdf</a></i> /
         {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
+          <i><a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" style="font-weight: 500;">pdf</a></i> /
         {% endif %}
       {% endif %}
       {% if entry.supp %}
@@ -251,7 +262,8 @@
         {% endif %}
       {% endif %}
       {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        {% comment %} <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a> {% endcomment %}
+        <i><a href="{{ entry.website }}" style="font-weight: 500;">Website</a></i>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}

@@ -35,6 +35,9 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+        {% if page.social %}
+          <div class="contact-icons mt-3">{% include social.liquid %}</div>
+        {% endif %}
       </div>
     {% endif %}
 
@@ -48,7 +51,7 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-     <!-- Latest posts -->
+    <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
@@ -81,14 +84,7 @@ layout: default
       </div> 
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
+    <!-- Social moved under the photo; bottom block removed -->
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}

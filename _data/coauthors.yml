@@ -1,34 +1,40 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"li":
+  - firstname: ["Tianyu", "Tony Tianyu"]
+    url: http://imtianyuli.com/
+  - firstname: ["Zhongyu"]
+    url: https://zyliatzju.github.io/
+    
+"gao":
+  - firstname: ["Jiayuan", "George Jiayuan"]
+    url: https://ggao22.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"figueroa":
+  - firstname: ["Nadia"]
+    url: https://nbfigueroa.github.io/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"shi":
+  - firstname: ["Junyao"]
+    url: https://junyaoshi.github.io/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"jayaraman":
+  - firstname: ["Dinesh"]
+    url: https://www.seas.upenn.edu/~dineshj/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"zhang":
+  - firstname: ["Zizhe"]
+    url: https://zizhe.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"zeng":
+  - firstname: ["Jun"]
+    url: https://junzengx14.github.io/
+  - firstname: ["Yifan"]
+    url: https://scholar.google.com/citations?hl=en&user=7Ww0LMIAAAAJ
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"sreenath":
+  - firstname: ["Koushil"]
+    url: https://me.berkeley.edu/people/koushil-sreenath/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"he":
+  - firstname: ["Suiyi"]
+    url: https://hesuieins.github.io/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
