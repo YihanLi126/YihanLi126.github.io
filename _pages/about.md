@@ -27,5 +27,7 @@ projects:
   limit: 3
 ---
 
-I'm a Robotics MSE student at the [GRASP Lab](https://www.grasp.upenn.edu/), [University of Pennsylvania](https://www.seas.upenn.edu/), advised by [Prof. Nadia Figueroa](https://nbfigueroa.github.io/). 
+I'm a Robotics MSE student at the [GRASP Lab](https://www.grasp.upenn.edu/), [University of Pennsylvania](https://www.seas.upenn.edu/), advised by [Prof. Nadia Figueroa](https://nbfigueroa.github.io/). I received my bachelor’s degree in Automation Engineering Major and EE & Automation Engineering Minor from [Qian Xuesen Honors College](https://bjb.xjtu.edu.cn/index.htm#), [Xi'an Jiaotong University](https://en.xjtu.edu.cn/). During my undergrad, I also worked as a visiting student at [Hybrid Robotics Group](https://hybrid-robotics.berkeley.edu/), [UC Berkeley](https://www.berkeley.edu/), advised by [Prof. Koushil Sreenath](https://me.berkeley.edu/people/koushil-sreenath/). 
+
+My research focuses on 
 
