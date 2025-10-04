@@ -2,15 +2,22 @@
 
 /* Enlarge social icons under the profile photo on the About page */
 .post .profile .contact-icons {
-  font-size: 1.8rem; /* adjust as desired */
+  font-size: 2.2rem !important; /* increase base size */
   line-height: 1;
 }
+.post .profile .contact-icons a,
+.post .profile .contact-icons i,
+.post .profile .contact-icons svg,
+.post .profile .contact-icons .fa,
+.post .profile .contact-icons .fab,
+.post .profile .contact-icons .ai {
+  font-size: 1em !important; /* inherit from container */
+}
 .post .profile .contact-icons a {
-  margin-right: 0.4rem;
+  margin-right: 0.5rem;
 }
 .post .profile .contact-icons i,
 .post .profile .contact-icons svg {
-  font-size: inherit;
   width: 1em;
   height: 1em;
 }
