@@ -1,0 +1,16 @@
+/* Custom overrides */
+
+/* Enlarge social icons under the profile photo on the About page */
+.post .profile .contact-icons {
+  font-size: 1.8rem; /* adjust as desired */
+  line-height: 1;
+}
+.post .profile .contact-icons a {
+  margin-right: 0.4rem;
+}
+.post .profile .contact-icons i,
+.post .profile .contact-icons svg {
+  font-size: inherit;
+  width: 1em;
+  height: 1em;
+}
