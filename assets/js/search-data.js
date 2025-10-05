@@ -406,8 +406,8 @@ ninja.data = [{
           section: "News",},{id: "news-start-summer-internship-at-robotic-system-lab-led-by-prof-marco-hutter-as-one-of-the-2025-robotics-student-fellows-10-out-of-327-applicants",
           title: 'Start summer internship at Robotic System Lab led by Prof. Marco Hutter as...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
+          section: "News",},{id: "projects-whole-body-control-for-force-attending-mobile-manipulation",
+          title: 'Whole-body Control for Force-attending Mobile Manipulation',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
@@ -436,21 +436,6 @@ ninja.data = [{
           description: "a project with no image",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
