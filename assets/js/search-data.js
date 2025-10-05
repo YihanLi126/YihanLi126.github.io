@@ -391,16 +391,20 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-joined-hybrid-robotics-group-as-a-visiting-student-in-uc-berkeley-advised-by-prof-koushil-sreenath",
+          title: 'Joined Hybrid Robotics Group as a visiting student in UC Berkeley, advised by...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-joined-clear-lab-in-sustech-as-a-research-assistant-during-2024-spring-advised-by-prof-wei-zhang",
+          title: 'Joined CLEAR Lab in SUSTech as a research assistant during 2024 Spring, advised...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-start-working-at-robotic-system-lab-led-by-prof-marco-hutter-as-one-of-the-2025-robotics-student-fellows-10-out-of-327-applicants",
+          title: 'Start working at Robotic System Lab led by Prof. Marco Hutter as one...',
+          description: "",
+          section: "News",},{id: "news-joined-figueroa-robotics-lab-penn-in-university-of-pennsylvania-advised-by-prof-nadia-figueroa",
+          title: 'Joined Figueroa Robotics Lab@Penn in University of Pennsylvania, advised by Prof. Nadia Figueroa....',
+          description: "",
+          section: "News",},{id: "news-attend-rss-2025-in-los-angeles-as-a-volunteer-and-workshop-author",
+          title: 'Attend RSS 2025 in Los Angeles as a volunteer and workshop author.',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
