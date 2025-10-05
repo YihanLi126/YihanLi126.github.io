@@ -408,7 +408,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-whole-body-control-for-force-attending-mobile-manipulation",
           title: 'Whole-body Control for Force-attending Mobile Manipulation',
-          description: "with background image",
+          description: "Master&#39;s Independent Study",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
