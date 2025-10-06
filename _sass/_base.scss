@@ -690,6 +690,7 @@
    .card {
      img {
        width: 100%;
+       display: block;
      }
    }
  
@@ -727,13 +728,13 @@
  
  // Projects page: tighten vertical spacing around titles
  .projects .card-body {
-   padding-top: 0.6rem;
-   padding-bottom: 0.8rem;
+   padding-top: 0.4rem;
+   padding-bottom: 0.6rem;
  }
  
  .projects .card-title {
-   margin-top: 0.1rem;
-   margin-bottom: 0.25rem;
+   margin-top: 0rem;
+   margin-bottom: 0.15rem;
  }
  
  .projects .card-text {
@@ -742,8 +743,8 @@
  
  @media (min-width: 768px) {
    .projects .card-body {
-     padding-top: 0.7rem;
-     padding-bottom: 0.9rem;
+     padding-top: 0.45rem;
+     padding-bottom: 0.65rem;
    }
  }
  
@@ -977,7 +978,7 @@
      padding-bottom: 1rem;
  
      a {
-       color: var(--global-text-color-light);
+       color: var (--global-text-color-light);
        text-decoration: none;
  
        &:hover {
