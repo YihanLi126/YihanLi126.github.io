@@ -725,6 +725,28 @@
    }
  }
  
+ // Projects page: tighten vertical spacing around titles
+ .projects .card-body {
+   padding-top: 0.6rem;
+   padding-bottom: 0.8rem;
+ }
+ 
+ .projects .card-title {
+   margin-top: 0.1rem;
+   margin-bottom: 0.25rem;
+ }
+ 
+ .projects .card-text {
+   margin-top: 0.1rem;
+ }
+ 
+ @media (min-width: 768px) {
+   .projects .card-body {
+     padding-top: 0.7rem;
+     padding-bottom: 0.9rem;
+   }
+ }
+ 
  // Publications
  
  .publications {
