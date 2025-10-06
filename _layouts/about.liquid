@@ -97,11 +97,13 @@ layout: default
       {% if page.projects.limit %}
         {% assign projects_sorted = projects_sorted | slice: 0, page.projects.limit %}
       {% endif %}
-      <div class="row row-cols-1 row-cols-md-3">
-        {% for project in projects_sorted %}
-          {% include projects.liquid %}
-        {% endfor %}
-      </div> 
+      <div class="projects">
+        <div class="row row-cols-1 row-cols-md-3">
+          {% for project in projects_sorted %}
+            {% include projects.liquid %}
+          {% endfor %}
+        </div>
+      </div>
     {% endif %}
 
     <!-- Social moved under the photo; bottom block removed -->
