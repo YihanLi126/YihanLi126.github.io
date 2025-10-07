@@ -24,7 +24,7 @@ latest_posts:
 
 projects:
   enabled: true
-  limit: 5
+  limit: 3
 ---
 
 I'm a [Robotics MSE student](https://www.grasp.upenn.edu/people/yihan-li/) at [GRASP Lab](https://www.grasp.upenn.edu/), [University of Pennsylvania](https://www.seas.upenn.edu/), advised by [Prof. Nadia Figueroa](https://nbfigueroa.github.io/). I'm also one of the [2025 Robotics Student Fellows](https://robotx.ethz.ch/education/robotics-student-fellowship/2025-robotics-student-fellows.html) in [ETH Robotics Student Fellowship](https://robotx.ethz.ch/education/robotics-student-fellowship.html), working at [Robotic System Lab](https://rsl.ethz.ch/) led by [Prof. Marco Hutter](https://rsl.ethz.ch/the-lab/people/person-detail.MTIxOTEx.TGlzdC8yNDQxLC0xNDI1MTk1NzM1.html).
