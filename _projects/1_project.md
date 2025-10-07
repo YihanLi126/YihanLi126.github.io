@@ -6,6 +6,7 @@ img: assets/img/project_img/mobile_base_control.png
 importance: 1
 category: work
 related_publications: true
+redirect: /assets/pdf/energy_mppi_whole_body.pdf
 ---
 
 Every project has a beautiful feature showcase page.

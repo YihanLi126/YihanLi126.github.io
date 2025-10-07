@@ -714,37 +714,21 @@
    }
  }
  
- // Projects page: smaller titles on project cards
- .projects .card-title {
-   font-size: 1rem !important;
-   line-height: 1.25;
- }
- 
- @media (min-width: 768px) {
-   .projects .card-title {
-     font-size: 1.1rem !important;
-   }
- }
- 
- // Projects page: tighten vertical spacing around titles
+ // Projects page: tighten vertical spacing around titles (final)
  .projects .card-body {
-   padding-top: 0.4rem;
-   padding-bottom: 0.6rem;
+   padding-top: 0.15rem;
+   padding-bottom: 0.55rem;
  }
  
  .projects .card-title {
    margin-top: 0rem;
-   margin-bottom: 0.15rem;
- }
- 
- .projects .card-text {
-   margin-top: 0.1rem;
+   margin-bottom: 0.05rem;
  }
  
  @media (min-width: 768px) {
    .projects .card-body {
-     padding-top: 0.45rem;
-     padding-bottom: 0.65rem;
+     padding-top: 0.2rem;
+     padding-bottom: 0.6rem;
    }
  }
  
