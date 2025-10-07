@@ -1,81 +1,53 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Iterative MPPI Car Racing
+description: Undergraduate Thesis
+img: assets/img/project_img/mppi_racing_cover.JPG
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_img/inhand_background.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+</div>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+While dexterous manipulation in humans is highly adaptive, which enables tasks despite injuries or impairments, how would robotic hands adapt to scenarios in which they experience an “injury” including full amputations, power losses to certain actuators, and combinations thereof? My research at Robot System Lab aims on building an injury-adaptive in-hand manipulation policy for Allegro hand in the repose task with multimodal perception, in which the robot is asked to reposition the cube on its palm to a different position.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_img/pipeline.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Figure 1: Pipeline for our injury-adaptive policy.
 </div>
+
+We train a teacher-student policy for this task, as shown in Figure 1. The teacher policy is trained with privileged perception, including ground-truth object state and injury state that are unavailable to the student., and a student policy can be distilled using only real-world-available perception information through behavior cloning. 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_img/implement_detail.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Figure 2: Details for teacher policy implementation.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+My work mainly focuses on the teacher policy during RSF. Specifically, 3 types of injuries are implemented for the training setup in IsaacLab, as shown in Figure 2: joint torque loss, joint lock and joint encoder offset, while the injured joints and robot are randomly picked in the environment. The results show that with injury information the teacher policy out performs the base policy without information but becomes harder to get converged. The future works would focus on teacher policy optimization and Sim2Real gap filling.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    <video class="img-fluid rounded z-depth-1" src="/assets/video/random_joint_torque_loss_base_policy.mp4" autoplay muted loop playsinline controls></video>
+    <div class="caption">Base policy rollout with random joint torque loss</div>
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    <video class="img-fluid rounded z-depth-1" src="/assets/video/random_joint_torque_loss_injury_policy.mp4" autoplay muted loop playsinline controls></video>
+    <div class="caption">Injury-aware policy rollout with random joint torque loss</div>
   </div>
 </div>
-```
-
-{% endraw %}

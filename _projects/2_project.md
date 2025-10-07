@@ -5,7 +5,6 @@ description: RSF Project in ETH
 img: assets/img/project_img/in_hand_cover.png
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 <div class="row">
