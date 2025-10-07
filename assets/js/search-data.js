@@ -411,9 +411,9 @@ ninja.data = [{
           description: "Master&#39;s Independent Study",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-adapting-to-injuries-for-dexterous-in-hand-manipulation",
+          title: 'Adapting to Injuries for Dexterous In-Hand Manipulation',
+          description: "RSF Project in ETH",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
