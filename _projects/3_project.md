@@ -7,7 +7,9 @@ importance: 3
 category: work
 ---
 
-This project focus on the 
+This project focuses on solving the multimodal problem in sampling-based MPC([MPPI](https://sites.gatech.edu/acds/mppi/), Model Predictive Path Integral Control) in car-racing scenarios. 
+
+We can treat MPPI as a single-step diffusion process. Compared to the basic MPPI version which samples only 1 iteration in every step, applying iterative MPPI which updates the mean value according to the sampling result in last iteration would help avoid local minimum and improve sampling efficiency. However, when there are multiple feasible minimum values, iterative MPPI would suffer from the zig-zag between multimodal solutions in complex environment.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -30,10 +32,10 @@ This project focus on the
     </div>
 </div>
 <div class="caption">
-    Figure 2: Right overtake data.
+    Figure 2: Right overtake rollout data.
 </div>
 
-We train a teacher-student policy for this task, as shown in Figure 1. The teacher policy is trained with privileged perception, including ground-truth object state and injury state that are unavailable to the student., and a student policy can be distilled using only real-world-available perception information through behavior cloning. 
+As shown in Figure 1 and Figure 3, the ego vehicle could overtake the obstacles either from the right or left side. Figure 3 shows that the vehicle could get stuck when the intention of overtaking keeps jumping between the left and right.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -56,10 +58,19 @@ We train a teacher-student policy for this task, as shown in Figure 1. The teach
     </div>
 </div>
 <div class="caption">
-    Figure 4: Left overtake data.
+    Figure 4: Left overtake rollout data.
 </div>
 
-My work mainly focuses on the teacher policy during RSF. Specifically, 3 types of injuries are implemented for the training setup in IsaacLab, as shown in Figure 2: joint torque loss, joint lock and joint encoder offset, while the injured joints and robot are randomly picked in the environment. The results show that with injury information the teacher policy out performs the base policy without information but becomes harder to get converged. The future works would focus on teacher policy optimization and Sim2Real gap filling.
+In this project, we propose a regroup policy for iterative MPPI to solve the multimodal problem through maintaining a separate mean value and covariance matrix for each intention and pick the optimal solution with minimum efforts, as shown in Figure 5.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_img/mppi_regroup.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 5: Demonstration of iterative MPPI with regroup policy.
+</div>
 
 
 <div class="row">
@@ -72,7 +83,7 @@ My work mainly focuses on the teacher policy during RSF. Specifically, 3 types o
       </iframe>
     </div>
     <div class="caption mt-2">
-      Figure 5: Full report (interactive PDF).
+      Full report.
     </div>
   </div>
 </div>
