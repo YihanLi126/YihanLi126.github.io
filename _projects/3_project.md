@@ -61,7 +61,8 @@ As shown in Figure 1 and Figure 3, the ego vehicle could overtake the obstacles 
     Figure 4: Left overtake rollout data.
 </div>
 
-In this project, we propose a regroup policy for iterative MPPI to solve the multimodal problem through maintaining a separate mean value and covariance matrix for each intention and pick the optimal solution with minimum efforts, as shown in Figure 5.
+In this project, We propose an iterative MPPI framework with regrouping–resampling that unifies scenario generation,
+planning, and control, enabling the algorithm to automatically work out the overtaking tendency of static obstacles in car racing scenarios and bridging the planning process with trajectory generation, and solve the multimodal problem through maintaining a separate mean value and covariance matrix for each intention and pick the optimal solution with minimum efforts, as shown in Figure 5.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
