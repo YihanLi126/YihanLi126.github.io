@@ -2,7 +2,7 @@
 layout: page
 title: Whole-body Control for Force-attending Mobile Manipulation
 description: Master's Independent Study
-img: assets/img/project_img/mobile_base_control.png
+img: assets/img/project_img/mobile_base_control.jpg
 importance: 1
 category: work
 related_publications: true
