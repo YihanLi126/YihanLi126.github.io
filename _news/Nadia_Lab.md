@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined [Figueroa Robotics Lab@Penn](https://github.com/penn-figueroa-lab) in [University of Pennsylvania](https://www.seas.upenn.edu/), advised by [Prof. Nadia Figueroa](https://nbfigueroa.github.io/).
+Joined [Figueroa Robotics Lab@Penn](https://figueroa.seas.upenn.edu/) in [University of Pennsylvania](https://www.seas.upenn.edu/), advised by [Prof. Nadia Figueroa](https://nbfigueroa.github.io/).
