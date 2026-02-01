@@ -2,11 +2,14 @@
 layout: page
 title: news
 permalink: /news/
-_styles: >
-  .news .table-responsive {
-    max-height: 70vh;
-    overflow-y: auto;
-  }
----
+announcements:
+  scrollable: true
+  limit: 100
+# _styles: >
+#   .news .table-responsive {
+#     max-height: 70vh;
+#     overflow-y: auto;
+#   }
+# ---
 
-{% include news.liquid %}
+{% include news.liquid limit=true %}

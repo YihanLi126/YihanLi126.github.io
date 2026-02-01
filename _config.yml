@@ -52,7 +52,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 1300px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
