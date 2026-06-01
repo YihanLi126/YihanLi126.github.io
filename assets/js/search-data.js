@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -371,9 +364,6 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "news-joined-hybrid-robotics-group-as-a-visiting-student-in-uc-berkeley-advised-by-prof-koushil-sreenath",
           title: 'Joined Hybrid Robotics Group as a visiting student in UC Berkeley, advised by...',
-          description: "",
-          section: "News",},{id: "news-joined-clear-lab-in-sustech-as-a-research-assistant-during-2024-spring-advised-by-prof-wei-zhang",
-          title: 'Joined CLEAR Lab in SUSTech as a research assistant during 2024 Spring, advised...',
           description: "",
           section: "News",},{id: "news-joined-figueroa-robotics-lab-penn-in-university-of-pennsylvania-advised-by-prof-nadia-figueroa",
           title: 'Joined Figueroa Robotics Lab@Penn in University of Pennsylvania, advised by Prof. Nadia Figueroa....',
