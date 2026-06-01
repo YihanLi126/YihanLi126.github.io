@@ -2,10 +2,10 @@
 layout: none
 permalink: /cv/
 title: cv
-nav: true
+nav: false
 nav_order: 5
 ---
-<html>
+<!-- <html>
 <head>
 <meta http-equiv="refresh" content="0; url=/assets/pdf/Yihan_CV_Upenn.pdf">
 <link rel="canonical" href="/assets/pdf/Yihan_CV_Upenn.pdf">
@@ -14,7 +14,7 @@ nav_order: 5
 <body>
 <p>If you are not redirected automatically, <a href="/assets/pdf/Yihan_CV_Upenn.pdf">open the CV PDF</a>.</p>
 </body>
-</html>
+</html> -->
 
 
 <!-- ---
